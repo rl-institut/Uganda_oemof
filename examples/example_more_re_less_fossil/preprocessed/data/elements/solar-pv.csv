@@ -1,3 +1,5 @@
 region,name,type,carrier,tech,bus,capacity,capacity_cost,marginal_cost,profile,output_parameters
 CR,CR-solar-pv,volatile,solar,pv,CR-electricity,600000,,0,CR-solar-pv-profile,{}
 NR,NR-solar-pv,volatile,solar,pv,NR-electricity,12000000,,0,NR-solar-pv-profile,{}
+WR,WR-solar-pv,volatile,solar,pv,WR-electricity,600000,,0,WR-solar-pv-profile,{}
+ER,ER-solar-pv,volatile,solar,pv,ER-electricity,12000000,,0,ER-solar-pv-profile,{}

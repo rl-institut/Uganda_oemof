@@ -1,8 +1,8 @@
 optimize:
   filename_metadata: datapackage.json
   solver: cbc
-  debug: true
+  debug: false
   receive_duals: false
 
 plot_scalar_results:
-  agg_regions: true
+  agg_regions: false

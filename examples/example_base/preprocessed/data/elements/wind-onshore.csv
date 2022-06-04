@@ -1,3 +1,5 @@
 region,name,type,carrier,tech,bus,capacity,capacity_cost,marginal_cost,profile,output_parameters
 CR,CR-wind-onshore,volatile,wind,onshore,CR-electricity,0,,0,CR-wind-onshore-profile,{}
 NR,NR-wind-onshore,volatile,wind,onshore,NR-electricity,9900000,,0,NR-wind-onshore-profile,{}
+WR,WR-wind-onshore,volatile,wind,onshore,WR-electricity,0,,0,WR-wind-onshore-profile,{}
+ER,ER-wind-onshore,volatile,wind,onshore,ER-electricity,9900000,,0,ER-wind-onshore-profile,{}

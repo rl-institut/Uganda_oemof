@@ -1039,6 +1039,16 @@
                         "name": "NR-solar-pv-profile",
                         "type": "number",
                         "format": "default"
+                    },
+                    {
+                        "name": "WR-solar-pv-profile",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "ER-solar-pv-profile",
+                        "type": "number",
+                        "format": "default"
                     }
                 ],
                 "missingValues": [
@@ -1069,6 +1079,16 @@
                         "name": "NR-electricity-demand-profile",
                         "type": "number",
                         "format": "default"
+                    },
+                    {
+                        "name": "WR-electricity-demand-profile",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "ER-electricity-demand-profile",
+                        "type": "number",
+                        "format": "default"
                     }
                 ],
                 "missingValues": [
@@ -1097,6 +1117,16 @@
                     },
                     {
                         "name": "NR-wind-onshore-profile",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "WR-wind-onshore-profile",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "ER-wind-onshore-profile",
                         "type": "number",
                         "format": "default"
                     }

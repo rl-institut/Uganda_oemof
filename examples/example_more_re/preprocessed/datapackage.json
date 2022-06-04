@@ -1031,12 +1031,12 @@
                         "format": "default"
                     },
                     {
-                        "name": "BE-solar-pv-profile",
+                        "name": "CR-solar-pv-profile",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "BB-solar-pv-profile",
+                        "name": "NR-solar-pv-profile",
                         "type": "number",
                         "format": "default"
                     }
@@ -1061,12 +1061,12 @@
                         "format": "default"
                     },
                     {
-                        "name": "BE-electricity-demand-profile",
+                        "name": "CR-electricity-demand-profile",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "BB-electricity-demand-profile",
+                        "name": "NR-electricity-demand-profile",
                         "type": "number",
                         "format": "default"
                     }
@@ -1091,12 +1091,12 @@
                         "format": "default"
                     },
                     {
-                        "name": "BE-wind-onshore-profile",
+                        "name": "CR-wind-onshore-profile",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "BB-wind-onshore-profile",
+                        "name": "NR-wind-onshore-profile",
                         "type": "number",
                         "format": "default"
                     }

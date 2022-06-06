@@ -344,6 +344,7 @@ if __name__ == "__main__":
         plot.save_plot(output_path_plot)
 
     def plot_invest_out_multi_carrier(carriers):
+        #breakpoint()
         var_name = [f"invest_out_{carrier}" for carrier in carriers]
         unit = "W"
         output_path_plot = os.path.join(
@@ -458,7 +459,7 @@ if __name__ == "__main__":
             logger.warning("Could not plot demands.")
 
     plot_capacity()
-    plot_invest_out_multi_carrier(CARRIERS)
+    #plot_invest_out_multi_carrier(CARRIERS)
     plot_flow_out_multi_carrier(CARRIERS)
     plot_demands(CARRIERS)
 

@@ -1135,6 +1135,46 @@
                     ""
                 ]
             }
+        },
+        {
+            "path": "data/sequences/hydro-ror_profile.csv",
+            "profile": "tabular-data-resource",
+            "name": "hydro-ror_profile",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "timeindex",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "CR-hydro-ror-profile",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "NR-hydro-ror-profile",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "WR-hydro-ror-profile",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "ER-hydro-ror-profile",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
         }
     ]
 }

@@ -94,13 +94,17 @@ def prepare_scalar_data(df, colors_odict, labels_dict, conv_number, tolerance=1e
     # restore order of scenarios after pivoting
     df_pivot = df_pivot.reindex(scenario_order, level="scenario")
 
+    # This function breaks the execution of the examples 
+    # because it tries to remove all levels. This causes an 
+    # exception that says that 3 out of 3 elements can't removed
     def drop_constant_multiindex_levels(df):
-        _df = df.copy()
-        drop_levels = [
-            name for name in _df.index.names if len(_df.index.unique(name)) <= 1
-        ]
-        _df.index = _df.index.droplevel(drop_levels)
-        return _df
+        # _df = df.copy()
+        # drop_levels = [
+        #    name for name in _df.index.names if len(_df.index.unique(name)) <= 1
+        # ]
+        # _df.index = _df.index.droplevel(drop_levels)
+        # return _df
+        return df
 
     # Drop levels that are all the same, e.g. 'ALL' for aggregated regions
     df_pivot = drop_constant_multiindex_levels(df_pivot)

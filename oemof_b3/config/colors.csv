@@ -21,7 +21,7 @@ BEV,gold
 El. transmission in,#8c564b
 El. transmission out,#8c564b
 
-El. shortage,#cfcfcf
+El. shortage,#f59207
 Curtailment,#cfcfcf
 
 El. demand,#000000
@@ -60,6 +60,7 @@ CH4,#d62728
 Hard coal,black
 Lignite,saddlebrown
 Oil,#9467bd
+Fuel Oil,#9467bd
 Other,#7f7f7f
 CH4 shortage,#cfcfcf
 CH4 demand,saddlebrown

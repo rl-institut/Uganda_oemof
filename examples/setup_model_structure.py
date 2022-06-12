@@ -44,7 +44,7 @@ edp = EnergyDataPackage.setup_default(
     datetimeindex=pd.date_range("1/1/2016", periods=24 * 10, freq="H"),
     regions=["BE", "BB"],
     links=["BB-BE"],
-    busses=["electricity", "ch4", "biomass", "oil", "other"],
+    busses=["electricity", "ch4", "biomass", "fuel-oil", "other"],
     components=[
         "electricity-shortage",
         "electricity-curtailment",
@@ -53,7 +53,7 @@ edp = EnergyDataPackage.setup_default(
         "wind-onshore",
         "solar-pv",
         "ch4-gt",
-        "oil-st",
+        "fuel-oil-st",
         "other-st",
         "electricity-liion_battery",
         "biomass-st",

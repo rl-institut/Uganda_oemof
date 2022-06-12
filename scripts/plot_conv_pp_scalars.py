@@ -41,7 +41,7 @@ c_to_cl = {
     "biomass": "Biomass",
     "ch4": "CH4",
     "hard coal": "Hard coal",
-    "oil": "Oil",
+    "fuel oil": "Fuel Oil",
     "lignite": "Lignite",
     "other": "Other",
 }

@@ -151,7 +151,7 @@ if __name__ == "__main__":
         "Biomass and biogas": "biomass",
         "Hard coal": "hard coal",
         "Natural gas": "ch4",
-        "Oil": "oil",
+        "Fuel Oil": "fuel oil",
         "Lignite": "lignite",
         "Other fuels": "other",
     }

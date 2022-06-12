@@ -1,9 +1,9 @@
-oil-st:
+fuel-oil-st:
   carrier: biomass
   tech: st
   type: conversion
   foreign_keys:
-    from_bus: oil
+    from_bus: fuel-oil
     to_bus: electricity
   defaults:
     output_parameters: "{}"

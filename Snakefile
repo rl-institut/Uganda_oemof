@@ -73,7 +73,7 @@ rule prepare_example:
     run:
         import shutil
         shutil.copytree(src=input[0], dst=output[0])
-    
+
 rule prepare_conv_pp:
     input:
         opsd="raw/conventional_power_plants_DE.csv",

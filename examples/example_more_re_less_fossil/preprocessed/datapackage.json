@@ -930,9 +930,9 @@
             }
         },
         {
-            "path": "data/elements/ch4-gt.csv",
+            "path": "data/elements/geothermal-st.csv",
             "profile": "tabular-data-resource",
-            "name": "ch4-gt",
+            "name": "geothermal-st",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",

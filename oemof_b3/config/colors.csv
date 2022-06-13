@@ -60,9 +60,10 @@ CH4,#d62728
 Hard coal,black
 Lignite,saddlebrown
 Oil,#9467bd
-Fuel Oil,#9467bd
+Fuel Oil,#565656
 Other,#7f7f7f
 CH4 shortage,#cfcfcf
 CH4 demand,saddlebrown
 H2 import,green
 H2 demand,darkgreen
+Geothermal ST,#de7200

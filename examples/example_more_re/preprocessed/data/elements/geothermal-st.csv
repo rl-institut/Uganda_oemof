@@ -1,5 +1,5 @@
 region,name,type,carrier,tech,from_bus,to_bus,capacity,capacity_cost,efficiency,carrier_cost,marginal_cost,expandable,output_parameters
-CR,CR-geothermal-st,conversion,geothermal,gt,CR-geothermal,CR-electricity,1600000,,0.619,0.021,0.0045,False,{}
-NR,NR-geothermal-st,conversion,geothermal,gt,NR-geothermal,NR-electricity,600000,,0.619,0.021,0.0045,False,{}
-WR,WR-geothermal-st,conversion,geothermal,gt,WR-geothermal,WR-electricity,1600000,,0.619,0.021,0.0045,False,{}
-ER,ER-geothermal-st,conversion,geothermal,gt,ER-geothermal,ER-electricity,600000,,0.619,0.021,0.0045,False,{}
+CR,CR-geothermal-st,conversion,geothermal,st,CR-geothermal,CR-electricity,1600000,,0.619,0.021,0.0045,False,{}
+NR,NR-geothermal-st,conversion,geothermal,st,NR-geothermal,NR-electricity,600000,,0.619,0.021,0.0045,False,{}
+WR,WR-geothermal-st,conversion,geothermal,st,WR-geothermal,WR-electricity,1600000,,0.619,0.021,0.0045,False,{}
+ER,ER-geothermal-st,conversion,geothermal,st,ER-geothermal,ER-electricity,600000,,0.619,0.021,0.0045,False,{}

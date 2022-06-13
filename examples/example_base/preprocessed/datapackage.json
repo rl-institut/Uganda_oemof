@@ -187,9 +187,9 @@
             }
         },
         {
-            "path": "data/elements/oil-st.csv",
+            "path": "data/elements/fuel-oil-st.csv",
             "profile": "tabular-data-resource",
-            "name": "oil-st",
+            "name": "fuel-oil-st",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",

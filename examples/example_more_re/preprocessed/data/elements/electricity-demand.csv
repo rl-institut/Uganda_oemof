@@ -1,5 +1,5 @@
 region,name,type,carrier,tech,bus,amount,profile
-CR,CR-electricity-demand,load,electricity,demand,CR-electricity,9529227,CR-electricity-demand-profile
-NR,NR-electricity-demand,load,electricity,demand,NR-electricity,7188139,NR-electricity-demand-profile
-WR,WR-electricity-demand,load,electricity,demand,WR-electricity,8874862,WR-electricity-demand-profile
-ER,ER-electricity-demand,load,electricity,demand,ER-electricity,9042422,ER-electricity-demand-profile
+CR,CR-electricity-demand,load,electricity,demand,CR-electricity,807384,CR-electricity-demand-profile
+NR,NR-electricity-demand,load,electricity,demand,NR-electricity,609030,NR-electricity-demand-profile
+WR,WR-electricity-demand,load,electricity,demand,WR-electricity,751941,WR-electricity-demand-profile
+ER,ER-electricity-demand,load,electricity,demand,ER-electricity,766138,ER-electricity-demand-profile

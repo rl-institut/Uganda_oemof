@@ -88,6 +88,13 @@ if __name__ == "__main__":
             attributemap={},
             typemap=TYPEMAP,
         )
+        ### Code added to visualize (oemof_visio)
+        import graphviz
+        from oemof_visio import ESGraphRenderer
+            
+        os.environ["PATH"] += os.pathsep + 'C:/Program Files/Graphviz/bin/'
+        gr = ESGraphRenderer(energy_system=es, filepath="energy_system", img_format="png")
+        gr.view()
 
         # Reduce number of timestep for debugging
         if config.settings.optimize.debug:

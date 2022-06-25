@@ -1,0 +1,5 @@
+name,bus,carrier,marginal_cost,output_parameters,region,tech,type
+CR-heat-shortage,CR-heat,heat,1000000000.0,{},CR,shortage,shortage
+NR-heat-shortage,NR-heat,heat,1000000000.0,{},NR,shortage,shortage
+WR-heat-shortage,WR-heat,heat,1000000000.0,{},WR,shortage,shortage
+ER-heat-shortage,ER-heat,heat,1000000000.0,{},ER,shortage,shortage

@@ -676,9 +676,9 @@
             }
         },
         {
-            "path": "data/elements/other-st.csv",
+            "path": "data/elements/charcoal-h.csv",
             "profile": "tabular-data-resource",
-            "name": "other-st",
+            "name": "charcoal-h",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",

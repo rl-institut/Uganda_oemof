@@ -202,6 +202,14 @@ rolyzer" [fontsize=10 shape=rectangle]
 	"ER-electri
 city-elect
 rolyzer" [fontsize=10 shape=rectangle]
+	"CR-h2-stor
+age" [fontsize=10 shape=rectangle style=rounded]
+	"NR-h2-stor
+age" [fontsize=10 shape=rectangle style=rounded]
+	"WR-h2-stor
+age" [fontsize=10 shape=rectangle style=rounded]
+	"ER-h2-stor
+age" [fontsize=10 shape=rectangle style=rounded]
 	"CR-electri
 city-deman
 d" [fontsize=10 shape=trapezium]
@@ -214,36 +222,36 @@ d" [fontsize=10 shape=trapezium]
 	"ER-electri
 city-deman
 d" [fontsize=10 shape=trapezium]
-	"CR-electri
-city-liion
-_battery" -> "CR-electricity"
-	"CR-solar-p
-v" -> "CR-electricity"
-	"WR-CR-elec
+	"ER-CR-elec
 tricity-tr
 ansmission" -> "CR-electricity"
-	"ER-CR-elec
+	"WR-CR-elec
 tricity-tr
 ansmission" -> "CR-electricity"
 	"CR-hydro-r
 or" -> "CR-electricity"
-	"CR-NR-elec
-tricity-tr
-ansmission" -> "CR-electricity"
+	"CR-solar-p
+v" -> "CR-electricity"
+	"CR-geother
+mal-st" -> "CR-electricity"
+	"CR-electri
+city-liion
+_battery" -> "CR-electricity"
 	"CR-electri
 city-short
 age" -> "CR-electricity"
+	"CR-wind-on
+shore" -> "CR-electricity"
+	"CR-fuel_oi
+l-gt" -> "CR-electricity"
 	"CR-electri
 city-impor
 t" -> "CR-electricity"
-	"CR-fuel_oi
-l-gt" -> "CR-electricity"
-	"CR-wind-on
-shore" -> "CR-electricity"
 	"CR-biomass
 -st" -> "CR-electricity"
-	"CR-geother
-mal-st" -> "CR-electricity"
+	"CR-NR-elec
+tricity-tr
+ansmission" -> "CR-electricity"
 	"CR-electricity" -> "CR-NR-elec
 tricity-tr
 ansmission"
@@ -268,34 +276,34 @@ rolyzer"
 	"CR-electricity" -> "CR-electri
 city-deman
 d"
-	"NR-geother
-mal-st" -> "NR-electricity"
+	"NR-fuel_oi
+l-gt" -> "NR-electricity"
+	"NR-electri
+city-short
+age" -> "NR-electricity"
+	"NR-solar-p
+v" -> "NR-electricity"
+	"WR-NR-elec
+tricity-tr
+ansmission" -> "NR-electricity"
 	"NR-electri
 city-liion
 _battery" -> "NR-electricity"
+	"NR-biomass
+-st" -> "NR-electricity"
+	"NR-wind-on
+shore" -> "NR-electricity"
+	"ER-NR-elec
+tricity-tr
+ansmission" -> "NR-electricity"
+	"NR-hydro-r
+or" -> "NR-electricity"
+	"NR-geother
+mal-st" -> "NR-electricity"
 	"NR-electri
 city-impor
 t" -> "NR-electricity"
 	"CR-NR-elec
-tricity-tr
-ansmission" -> "NR-electricity"
-	"ER-NR-elec
-tricity-tr
-ansmission" -> "NR-electricity"
-	"NR-electri
-city-short
-age" -> "NR-electricity"
-	"NR-fuel_oi
-l-gt" -> "NR-electricity"
-	"NR-wind-on
-shore" -> "NR-electricity"
-	"NR-biomass
--st" -> "NR-electricity"
-	"NR-hydro-r
-or" -> "NR-electricity"
-	"NR-solar-p
-v" -> "NR-electricity"
-	"WR-NR-elec
 tricity-tr
 ansmission" -> "NR-electricity"
 	"NR-electricity" -> "CR-NR-elec
@@ -322,31 +330,31 @@ rolyzer"
 	"NR-electricity" -> "NR-electri
 city-deman
 d"
-	"ER-wind-on
-shore" -> "ER-electricity"
-	"ER-biomass
--st" -> "ER-electricity"
-	"ER-CR-elec
-tricity-tr
-ansmission" -> "ER-electricity"
-	"ER-electri
-city-short
-age" -> "ER-electricity"
-	"ER-NR-elec
-tricity-tr
-ansmission" -> "ER-electricity"
-	"ER-fuel_oi
-l-gt" -> "ER-electricity"
 	"ER-electri
 city-impor
 t" -> "ER-electricity"
+	"ER-CR-elec
+tricity-tr
+ansmission" -> "ER-electricity"
 	"ER-hydro-r
 or" -> "ER-electricity"
 	"ER-electri
 city-liion
 _battery" -> "ER-electricity"
+	"ER-wind-on
+shore" -> "ER-electricity"
 	"ER-geother
 mal-st" -> "ER-electricity"
+	"ER-biomass
+-st" -> "ER-electricity"
+	"ER-NR-elec
+tricity-tr
+ansmission" -> "ER-electricity"
+	"ER-electri
+city-short
+age" -> "ER-electricity"
+	"ER-fuel_oi
+l-gt" -> "ER-electricity"
 	"ER-solar-p
 v" -> "ER-electricity"
 	"ER-electricity" -> "ER-NR-elec
@@ -370,33 +378,33 @@ rolyzer"
 	"ER-electricity" -> "ER-electri
 city-deman
 d"
+	"WR-CR-elec
+tricity-tr
+ansmission" -> "WR-electricity"
 	"WR-electri
 city-liion
 _battery" -> "WR-electricity"
+	"WR-geother
+mal-st" -> "WR-electricity"
+	"WR-electri
+city-impor
+t" -> "WR-electricity"
+	"WR-fuel_oi
+l-gt" -> "WR-electricity"
+	"WR-electri
+city-short
+age" -> "WR-electricity"
+	"WR-wind-on
+shore" -> "WR-electricity"
+	"WR-NR-elec
+tricity-tr
+ansmission" -> "WR-electricity"
+	"WR-hydro-r
+or" -> "WR-electricity"
 	"WR-biomass
 -st" -> "WR-electricity"
 	"WR-solar-p
 v" -> "WR-electricity"
-	"WR-CR-elec
-tricity-tr
-ansmission" -> "WR-electricity"
-	"WR-fuel_oi
-l-gt" -> "WR-electricity"
-	"WR-wind-on
-shore" -> "WR-electricity"
-	"WR-electri
-city-impor
-t" -> "WR-electricity"
-	"WR-electri
-city-short
-age" -> "WR-electricity"
-	"WR-hydro-r
-or" -> "WR-electricity"
-	"WR-NR-elec
-tricity-tr
-ansmission" -> "WR-electricity"
-	"WR-geother
-mal-st" -> "WR-electricity"
 	"WR-electricity" -> "WR-CR-elec
 tricity-tr
 ansmission"
@@ -422,14 +430,14 @@ d"
 -st"
 	"CR-charcoa
 l-h" -> "CR-heat"
-	"CR-heat-sh
-ortage" -> "CR-heat"
 	"CR-heat-st
 orage" -> "CR-heat"
-	"CR-biomass
--st" -> "CR-heat"
 	"CR-geother
 mal-st" -> "CR-heat"
+	"CR-heat-sh
+ortage" -> "CR-heat"
+	"CR-biomass
+-st" -> "CR-heat"
 	"CR-heat" -> "CR-heat-ex
 cess"
 	"CR-heat" -> "CR-heat-de
@@ -438,16 +446,16 @@ mand"
 orage"
 	"NR-biomass" -> "NR-biomass
 -st"
-	"NR-geother
-mal-st" -> "NR-heat"
 	"NR-heat-st
 orage" -> "NR-heat"
-	"NR-charcoa
-l-h" -> "NR-heat"
 	"NR-heat-sh
 ortage" -> "NR-heat"
 	"NR-biomass
 -st" -> "NR-heat"
+	"NR-charcoa
+l-h" -> "NR-heat"
+	"NR-geother
+mal-st" -> "NR-heat"
 	"NR-heat" -> "NR-heat-ex
 cess"
 	"NR-heat" -> "NR-heat-de
@@ -456,16 +464,16 @@ mand"
 orage"
 	"WR-biomass" -> "WR-biomass
 -st"
-	"WR-biomass
--st" -> "WR-heat"
 	"WR-charcoa
 l-h" -> "WR-heat"
-	"WR-heat-st
-orage" -> "WR-heat"
-	"WR-heat-sh
-ortage" -> "WR-heat"
 	"WR-geother
 mal-st" -> "WR-heat"
+	"WR-heat-sh
+ortage" -> "WR-heat"
+	"WR-heat-st
+orage" -> "WR-heat"
+	"WR-biomass
+-st" -> "WR-heat"
 	"WR-heat" -> "WR-heat-ex
 cess"
 	"WR-heat" -> "WR-heat-de
@@ -474,16 +482,16 @@ mand"
 orage"
 	"ER-biomass" -> "ER-biomass
 -st"
-	"ER-biomass
--st" -> "ER-heat"
 	"ER-heat-st
 orage" -> "ER-heat"
-	"ER-heat-sh
-ortage" -> "ER-heat"
-	"ER-geother
-mal-st" -> "ER-heat"
 	"ER-charcoa
 l-h" -> "ER-heat"
+	"ER-biomass
+-st" -> "ER-heat"
+	"ER-geother
+mal-st" -> "ER-heat"
+	"ER-heat-sh
+ortage" -> "ER-heat"
 	"ER-heat" -> "ER-heat-ex
 cess"
 	"ER-heat" -> "ER-heat-de
@@ -511,19 +519,35 @@ mal-st"
 	"CR-electri
 city-elect
 rolyzer" -> "CR-h2"
+	"CR-h2-stor
+age" -> "CR-h2"
+	"CR-h2" -> "CR-h2-stor
+age"
 	"NR-geothermal" -> "NR-geother
 mal-st"
 	"NR-electri
 city-elect
 rolyzer" -> "NR-h2"
+	"NR-h2-stor
+age" -> "NR-h2"
+	"NR-h2" -> "NR-h2-stor
+age"
 	"WR-geothermal" -> "WR-geother
 mal-st"
+	"WR-h2-stor
+age" -> "WR-h2"
 	"WR-electri
 city-elect
 rolyzer" -> "WR-h2"
+	"WR-h2" -> "WR-h2-stor
+age"
 	"ER-geothermal" -> "ER-geother
 mal-st"
+	"ER-h2-stor
+age" -> "ER-h2"
 	"ER-electri
 city-elect
 rolyzer" -> "ER-h2"
+	"ER-h2" -> "ER-h2-stor
+age"
 }

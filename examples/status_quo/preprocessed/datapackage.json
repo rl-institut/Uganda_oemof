@@ -58,7 +58,7 @@
                     },
                     {
                         "name": "loss",
-                        "type": "integer",
+                        "type": "number",
                         "format": "default"
                     }
                 ],

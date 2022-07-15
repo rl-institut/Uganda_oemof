@@ -1,5 +1,2 @@
 region,name,type,carrier,tech,bus,capacity,marginal_cost,output_parameters
-CR,CR-electricity-curtailment,excess,electricity,curtailment,CR-electricity,,0,{}
-NR,NR-electricity-curtailment,excess,electricity,curtailment,NR-electricity,,0,{}
-WR,WR-electricity-curtailment,excess,electricity,curtailment,WR-electricity,,0,{}
-ER,ER-electricity-curtailment,excess,electricity,curtailment,ER-electricity,,0,{}
+UGA,UGA-electricity-curtailment,excess,electricity,curtailment,UGA-electricity,,0,{}

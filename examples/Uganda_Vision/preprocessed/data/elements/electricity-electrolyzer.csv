@@ -1,5 +1,2 @@
 name,capacity,capacity_cost,capacity_potential,carrier,carrier_cost,efficiency,expandable,from_bus,marginal_cost,output_parameters,region,tech,to_bus,type
-CR-electricity-electrolyzer,0,78068.9917727708,,electricity,,0.73,True,CR-electricity,1e-06,{},CR,electrolyzer,CR-h2,conversion
-NR-electricity-electrolyzer,0,78068.9917727708,,electricity,,0.73,True,NR-electricity,1e-06,{},NR,electrolyzer,NR-h2,conversion
-WR-electricity-electrolyzer,0,78068.9917727708,,electricity,,0.73,True,WR-electricity,1e-06,{},WR,electrolyzer,WR-h2,conversion
-ER-electricity-electrolyzer,0,78068.9917727708,,electricity,,0.73,True,ER-electricity,1e-06,{},ER,electrolyzer,ER-h2,conversion
+UGA-electricity-electrolyzer,0,78068.9917727708,,electricity,,0.73,True,UGA-electricity,1e-06,{},UGA,electrolyzer,UGA-h2,conversion

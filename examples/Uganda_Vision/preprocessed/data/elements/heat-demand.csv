@@ -1,5 +1,2 @@
 name,amount,bus,carrier,profile,region,tech,type
-CR-heat-demand,8645809.0,CR-heat,heat,CR-heat-demand-profile,CR,demand,load
-NR-heat-demand,21389961.0,NR-heat,heat,NR-heat-demand-profile,NR,demand,load
-WR-heat-demand,8645809.0,WR-heat,heat,WR-heat-demand-profile,WR,demand,load
-ER-heat-demand,21389961.0,ER-heat,heat,ER-heat-demand-profile,ER,demand,load
+UGA-heat-demand,8645809.0,UGA-heat,heat,UGA-heat-demand-profile,UGA,demand,load

@@ -1,5 +1,2 @@
 region,name,type,carrier,tech,from_bus,to_bus,capacity,capacity_cost,efficiency,carrier_cost,marginal_cost,expandable,output_parameters
-CR,CR-h2-fuel-cell,conversion,h2,fc,CR-h2,CR-electricity,0,,0.40,0.021,0.0045,False,{}
-NR,NR-h2-fuel-cell,conversion,h2,fc,NR-h2,NR-electricity,0,,0.40,0.021,0.0045,False,{}
-WR,WR-h2-fuel-cell,conversion,h2,fc,WR-h2,WR-electricity,0,,0.40,0.021,0.0045,False,{}
-ER,ER-h2-fuel-cell,conversion,h2,fc,ER-h2,ER-electricity,0,,0.40,0.021,0.0045,False,{}
+UGA,UGA-h2-fuel-cell,conversion,h2,fc,UGA-h2,UGA-electricity,0,,0.40,0.021,0.0045,False,{}

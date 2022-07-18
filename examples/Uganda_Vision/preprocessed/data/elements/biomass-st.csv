@@ -1,2 +1,2 @@
 region,name,type,tech,carrier,carrier_cost,electric_efficiency,electricity_bus,fuel_bus,heat_bus,capacity,capacity_cost,marginal_cost,expandable,thermal_efficiency
-UGA,UGA-biomass-st,backpressure,st,biomass,0.041,0.52,UGA-electricity,UGA-biomass,UGA-heat,0,96413.1590651,0.0014,False,0.34
+UGA,UGA-biomass-st,backpressure,st,biomass,0.041,0.52,UGA-electricity,UGA-biomass,UGA-heat,1700,96413.1590651,0.0014,False,0.34

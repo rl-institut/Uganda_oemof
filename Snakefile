@@ -5,7 +5,7 @@ HTTP = HTTPRemoteProvider()
 
 
 scenario_groups = {
-    "examples": ["Uganda_Vision"],
+    "examples": ["Uganda_Vision_Regions"],
     #"examples": ["Status_quo", "Uganda_Vision_Regions", "Uganda_Vision"],
     "all-scenarios": [os.path.splitext(scenario)[0] for scenario in os.listdir("scenarios")]
 }

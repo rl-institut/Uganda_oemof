@@ -1,127 +1,577 @@
 digraph {
-	"UGA-electricity" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
-	"UGA-biomass" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
-	"UGA-heat" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
-	"UGA-biomas
-s-st" [fontsize=10 shape=rectangle]
-	"UGA-fuel-oil" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
-	"UGA-fuel_o
-il-gt" [fontsize=10 shape=rectangle]
-	"UGA-electr
-icity-shor
-tage" [fontsize=10 shape=invtrapezium]
-	"UGA-electr
-icity-impo
-rt" [fontsize=10 shape=invtrapezium]
-	"UGA-electr
-icity-liio
-n_battery" [fontsize=10 shape=rectangle style=rounded]
-	"UGA-electr
-icity-curt
-ailment" [fontsize=10 shape=trapezium]
-	"UGA-electr
-icity-expo
-rt" [fontsize=10 shape=trapezium]
-	"UGA-charcoal" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
-	"UGA-charco
-al-h" [fontsize=10 shape=rectangle]
-	"UGA-wind-o
-nshore" [fontsize=10 shape=invtrapezium]
-	"UGA-geothermal" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
-	"UGA-h2" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
-	"UGA-solar-
-pv" [fontsize=10 shape=invtrapezium]
-	"UGA-hydro-
-ror" [fontsize=10 shape=invtrapezium]
-	"UGA-geothe
-rmal-st" [fontsize=10 shape=rectangle]
-	"UGA-heat-s
-hortage" [fontsize=10 shape=invtrapezium]
-	"UGA-heat-e
-xcess" [fontsize=10 shape=trapezium]
-	"UGA-heat-d
-emand" [fontsize=10 shape=trapezium]
-	"UGA-heat-s
-torage" [fontsize=10 shape=rectangle style=rounded]
-	"UGA-electr
-icity-elec
-trolyzer" [fontsize=10 shape=rectangle]
-	"UGA-h2-sto
-rage" [fontsize=10 shape=rectangle style=rounded]
-	"UGA-h2-fue
-l-cell" [fontsize=10 shape=rectangle]
-	"UGA-electr
-icity-dema
-nd" [fontsize=10 shape=trapezium]
-	"UGA-wind-o
-nshore" -> "UGA-electricity"
-	"UGA-h2-fue
-l-cell" -> "UGA-electricity"
-	"UGA-electr
-icity-liio
-n_battery" -> "UGA-electricity"
-	"UGA-hydro-
-ror" -> "UGA-electricity"
-	"UGA-electr
-icity-shor
-tage" -> "UGA-electricity"
-	"UGA-electr
-icity-impo
-rt" -> "UGA-electricity"
-	"UGA-solar-
-pv" -> "UGA-electricity"
-	"UGA-fuel_o
-il-gt" -> "UGA-electricity"
-	"UGA-geothe
-rmal-st" -> "UGA-electricity"
-	"UGA-biomas
-s-st" -> "UGA-electricity"
-	"UGA-electricity" -> "UGA-electr
-icity-liio
-n_battery"
-	"UGA-electricity" -> "UGA-electr
-icity-curt
-ailment"
-	"UGA-electricity" -> "UGA-electr
-icity-expo
-rt"
-	"UGA-electricity" -> "UGA-electr
-icity-elec
-trolyzer"
-	"UGA-electricity" -> "UGA-electr
-icity-dema
-nd"
-	"UGA-biomass" -> "UGA-biomas
-s-st"
-	"UGA-heat-s
-torage" -> "UGA-heat"
-	"UGA-charco
-al-h" -> "UGA-heat"
-	"UGA-heat-s
-hortage" -> "UGA-heat"
-	"UGA-geothe
-rmal-st" -> "UGA-heat"
-	"UGA-biomas
-s-st" -> "UGA-heat"
-	"UGA-heat" -> "UGA-heat-e
-xcess"
-	"UGA-heat" -> "UGA-heat-d
-emand"
-	"UGA-heat" -> "UGA-heat-s
-torage"
-	"UGA-fuel-oil" -> "UGA-fuel_o
-il-gt"
-	"UGA-charcoal" -> "UGA-charco
-al-h"
-	"UGA-geothermal" -> "UGA-geothe
-rmal-st"
-	"UGA-electr
-icity-elec
-trolyzer" -> "UGA-h2"
-	"UGA-h2-sto
-rage" -> "UGA-h2"
-	"UGA-h2" -> "UGA-h2-sto
-rage"
-	"UGA-h2" -> "UGA-h2-fue
-l-cell"
+	"CR-electricity" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"NR-electricity" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"CR-NR-elec
+tricity-tr
+ansmission" [fontsize=10 shape=rectangle]
+	"ER-electricity" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"ER-NR-elec
+tricity-tr
+ansmission" [fontsize=10 shape=rectangle]
+	"ER-CR-elec
+tricity-tr
+ansmission" [fontsize=10 shape=rectangle]
+	"WR-electricity" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"WR-CR-elec
+tricity-tr
+ansmission" [fontsize=10 shape=rectangle]
+	"WR-NR-elec
+tricity-tr
+ansmission" [fontsize=10 shape=rectangle]
+	"CR-biomass" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"CR-heat" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"CR-biomass
+-st" [fontsize=10 shape=rectangle]
+	"NR-biomass" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"NR-heat" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"NR-biomass
+-st" [fontsize=10 shape=rectangle]
+	"WR-biomass" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"WR-heat" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"WR-biomass
+-st" [fontsize=10 shape=rectangle]
+	"ER-biomass" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"ER-heat" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"ER-biomass
+-st" [fontsize=10 shape=rectangle]
+	"CR-fuel-oil" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"CR-fuel_oi
+l-gt" [fontsize=10 shape=rectangle]
+	"NR-fuel-oil" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"NR-fuel_oi
+l-gt" [fontsize=10 shape=rectangle]
+	"WR-fuel-oil" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"WR-fuel_oi
+l-gt" [fontsize=10 shape=rectangle]
+	"ER-fuel-oil" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"ER-fuel_oi
+l-gt" [fontsize=10 shape=rectangle]
+	"CR-electri
+city-short
+age" [fontsize=10 shape=invtrapezium]
+	"NR-electri
+city-short
+age" [fontsize=10 shape=invtrapezium]
+	"WR-electri
+city-short
+age" [fontsize=10 shape=invtrapezium]
+	"ER-electri
+city-short
+age" [fontsize=10 shape=invtrapezium]
+	"CR-electri
+city-impor
+t" [fontsize=10 shape=invtrapezium]
+	"NR-electri
+city-impor
+t" [fontsize=10 shape=invtrapezium]
+	"WR-electri
+city-impor
+t" [fontsize=10 shape=invtrapezium]
+	"ER-electri
+city-impor
+t" [fontsize=10 shape=invtrapezium]
+	"CR-electri
+city-liion
+_battery" [fontsize=10 shape=rectangle style=rounded]
+	"NR-electri
+city-liion
+_battery" [fontsize=10 shape=rectangle style=rounded]
+	"WR-electri
+city-liion
+_battery" [fontsize=10 shape=rectangle style=rounded]
+	"ER-electri
+city-liion
+_battery" [fontsize=10 shape=rectangle style=rounded]
+	"CR-electri
+city-curta
+ilment" [fontsize=10 shape=trapezium]
+	"NR-electri
+city-curta
+ilment" [fontsize=10 shape=trapezium]
+	"WR-electri
+city-curta
+ilment" [fontsize=10 shape=trapezium]
+	"ER-electri
+city-curta
+ilment" [fontsize=10 shape=trapezium]
+	"CR-electri
+city-expor
+t" [fontsize=10 shape=trapezium]
+	"NR-electri
+city-expor
+t" [fontsize=10 shape=trapezium]
+	"WR-electri
+city-expor
+t" [fontsize=10 shape=trapezium]
+	"ER-electri
+city-expor
+t" [fontsize=10 shape=trapezium]
+	"CR-charcoal" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"CR-charcoa
+l-h" [fontsize=10 shape=rectangle]
+	"NR-charcoal" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"NR-charcoa
+l-h" [fontsize=10 shape=rectangle]
+	"WR-charcoal" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"WR-charcoa
+l-h" [fontsize=10 shape=rectangle]
+	"ER-charcoal" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"ER-charcoa
+l-h" [fontsize=10 shape=rectangle]
+	"CR-wind-on
+shore" [fontsize=10 shape=invtrapezium]
+	"NR-wind-on
+shore" [fontsize=10 shape=invtrapezium]
+	"WR-wind-on
+shore" [fontsize=10 shape=invtrapezium]
+	"ER-wind-on
+shore" [fontsize=10 shape=invtrapezium]
+	"CR-geothermal" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"CR-h2" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"NR-geothermal" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"NR-h2" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"WR-geothermal" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"WR-h2" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"ER-geothermal" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"ER-h2" [color=lightgrey fixedsize=shape fontsize=10 height=0.3 shape=rectangle style=filled width=4.1]
+	"CR-solar-p
+v" [fontsize=10 shape=invtrapezium]
+	"NR-solar-p
+v" [fontsize=10 shape=invtrapezium]
+	"WR-solar-p
+v" [fontsize=10 shape=invtrapezium]
+	"ER-solar-p
+v" [fontsize=10 shape=invtrapezium]
+	"CR-hydro-r
+or" [fontsize=10 shape=invtrapezium]
+	"NR-hydro-r
+or" [fontsize=10 shape=invtrapezium]
+	"WR-hydro-r
+or" [fontsize=10 shape=invtrapezium]
+	"ER-hydro-r
+or" [fontsize=10 shape=invtrapezium]
+	"CR-geother
+mal-st" [fontsize=10 shape=rectangle]
+	"NR-geother
+mal-st" [fontsize=10 shape=rectangle]
+	"WR-geother
+mal-st" [fontsize=10 shape=rectangle]
+	"ER-geother
+mal-st" [fontsize=10 shape=rectangle]
+	"CR-heat-sh
+ortage" [fontsize=10 shape=invtrapezium]
+	"NR-heat-sh
+ortage" [fontsize=10 shape=invtrapezium]
+	"WR-heat-sh
+ortage" [fontsize=10 shape=invtrapezium]
+	"ER-heat-sh
+ortage" [fontsize=10 shape=invtrapezium]
+	"CR-heat-ex
+cess" [fontsize=10 shape=trapezium]
+	"NR-heat-ex
+cess" [fontsize=10 shape=trapezium]
+	"WR-heat-ex
+cess" [fontsize=10 shape=trapezium]
+	"ER-heat-ex
+cess" [fontsize=10 shape=trapezium]
+	"CR-heat-de
+mand" [fontsize=10 shape=trapezium]
+	"NR-heat-de
+mand" [fontsize=10 shape=trapezium]
+	"WR-heat-de
+mand" [fontsize=10 shape=trapezium]
+	"ER-heat-de
+mand" [fontsize=10 shape=trapezium]
+	"CR-heat-st
+orage" [fontsize=10 shape=rectangle style=rounded]
+	"NR-heat-st
+orage" [fontsize=10 shape=rectangle style=rounded]
+	"WR-heat-st
+orage" [fontsize=10 shape=rectangle style=rounded]
+	"ER-heat-st
+orage" [fontsize=10 shape=rectangle style=rounded]
+	"CR-electri
+city-elect
+rolyzer" [fontsize=10 shape=rectangle]
+	"NR-electri
+city-elect
+rolyzer" [fontsize=10 shape=rectangle]
+	"WR-electri
+city-elect
+rolyzer" [fontsize=10 shape=rectangle]
+	"ER-electri
+city-elect
+rolyzer" [fontsize=10 shape=rectangle]
+	"CR-h2-stor
+age" [fontsize=10 shape=rectangle style=rounded]
+	"NR-h2-stor
+age" [fontsize=10 shape=rectangle style=rounded]
+	"WR-h2-stor
+age" [fontsize=10 shape=rectangle style=rounded]
+	"ER-h2-stor
+age" [fontsize=10 shape=rectangle style=rounded]
+	"CR-h2-fuel
+-cell" [fontsize=10 shape=rectangle]
+	"NR-h2-fuel
+-cell" [fontsize=10 shape=rectangle]
+	"WR-h2-fuel
+-cell" [fontsize=10 shape=rectangle]
+	"ER-h2-fuel
+-cell" [fontsize=10 shape=rectangle]
+	"CR-electri
+city-deman
+d" [fontsize=10 shape=trapezium]
+	"NR-electri
+city-deman
+d" [fontsize=10 shape=trapezium]
+	"WR-electri
+city-deman
+d" [fontsize=10 shape=trapezium]
+	"ER-electri
+city-deman
+d" [fontsize=10 shape=trapezium]
+	"WR-CR-elec
+tricity-tr
+ansmission" -> "CR-electricity"
+	"CR-biomass
+-st" -> "CR-electricity"
+	"CR-solar-p
+v" -> "CR-electricity"
+	"ER-CR-elec
+tricity-tr
+ansmission" -> "CR-electricity"
+	"CR-wind-on
+shore" -> "CR-electricity"
+	"CR-electri
+city-impor
+t" -> "CR-electricity"
+	"CR-NR-elec
+tricity-tr
+ansmission" -> "CR-electricity"
+	"CR-electri
+city-short
+age" -> "CR-electricity"
+	"CR-hydro-r
+or" -> "CR-electricity"
+	"CR-electri
+city-liion
+_battery" -> "CR-electricity"
+	"CR-geother
+mal-st" -> "CR-electricity"
+	"CR-h2-fuel
+-cell" -> "CR-electricity"
+	"CR-fuel_oi
+l-gt" -> "CR-electricity"
+	"CR-electricity" -> "CR-NR-elec
+tricity-tr
+ansmission"
+	"CR-electricity" -> "ER-CR-elec
+tricity-tr
+ansmission"
+	"CR-electricity" -> "WR-CR-elec
+tricity-tr
+ansmission"
+	"CR-electricity" -> "CR-electri
+city-liion
+_battery"
+	"CR-electricity" -> "CR-electri
+city-curta
+ilment"
+	"CR-electricity" -> "CR-electri
+city-expor
+t"
+	"CR-electricity" -> "CR-electri
+city-elect
+rolyzer"
+	"CR-electricity" -> "CR-electri
+city-deman
+d"
+	"NR-hydro-r
+or" -> "NR-electricity"
+	"NR-geother
+mal-st" -> "NR-electricity"
+	"NR-h2-fuel
+-cell" -> "NR-electricity"
+	"NR-fuel_oi
+l-gt" -> "NR-electricity"
+	"WR-NR-elec
+tricity-tr
+ansmission" -> "NR-electricity"
+	"NR-solar-p
+v" -> "NR-electricity"
+	"NR-electri
+city-short
+age" -> "NR-electricity"
+	"NR-electri
+city-impor
+t" -> "NR-electricity"
+	"NR-biomass
+-st" -> "NR-electricity"
+	"CR-NR-elec
+tricity-tr
+ansmission" -> "NR-electricity"
+	"ER-NR-elec
+tricity-tr
+ansmission" -> "NR-electricity"
+	"NR-wind-on
+shore" -> "NR-electricity"
+	"NR-electri
+city-liion
+_battery" -> "NR-electricity"
+	"NR-electricity" -> "CR-NR-elec
+tricity-tr
+ansmission"
+	"NR-electricity" -> "ER-NR-elec
+tricity-tr
+ansmission"
+	"NR-electricity" -> "WR-NR-elec
+tricity-tr
+ansmission"
+	"NR-electricity" -> "NR-electri
+city-liion
+_battery"
+	"NR-electricity" -> "NR-electri
+city-curta
+ilment"
+	"NR-electricity" -> "NR-electri
+city-expor
+t"
+	"NR-electricity" -> "NR-electri
+city-elect
+rolyzer"
+	"NR-electricity" -> "NR-electri
+city-deman
+d"
+	"ER-solar-p
+v" -> "ER-electricity"
+	"ER-fuel_oi
+l-gt" -> "ER-electricity"
+	"ER-hydro-r
+or" -> "ER-electricity"
+	"ER-CR-elec
+tricity-tr
+ansmission" -> "ER-electricity"
+	"ER-h2-fuel
+-cell" -> "ER-electricity"
+	"ER-electri
+city-impor
+t" -> "ER-electricity"
+	"ER-electri
+city-short
+age" -> "ER-electricity"
+	"ER-NR-elec
+tricity-tr
+ansmission" -> "ER-electricity"
+	"ER-electri
+city-liion
+_battery" -> "ER-electricity"
+	"ER-wind-on
+shore" -> "ER-electricity"
+	"ER-biomass
+-st" -> "ER-electricity"
+	"ER-geother
+mal-st" -> "ER-electricity"
+	"ER-electricity" -> "ER-NR-elec
+tricity-tr
+ansmission"
+	"ER-electricity" -> "ER-CR-elec
+tricity-tr
+ansmission"
+	"ER-electricity" -> "ER-electri
+city-liion
+_battery"
+	"ER-electricity" -> "ER-electri
+city-curta
+ilment"
+	"ER-electricity" -> "ER-electri
+city-expor
+t"
+	"ER-electricity" -> "ER-electri
+city-elect
+rolyzer"
+	"ER-electricity" -> "ER-electri
+city-deman
+d"
+	"WR-CR-elec
+tricity-tr
+ansmission" -> "WR-electricity"
+	"WR-solar-p
+v" -> "WR-electricity"
+	"WR-h2-fuel
+-cell" -> "WR-electricity"
+	"WR-electri
+city-liion
+_battery" -> "WR-electricity"
+	"WR-NR-elec
+tricity-tr
+ansmission" -> "WR-electricity"
+	"WR-wind-on
+shore" -> "WR-electricity"
+	"WR-electri
+city-short
+age" -> "WR-electricity"
+	"WR-geother
+mal-st" -> "WR-electricity"
+	"WR-biomass
+-st" -> "WR-electricity"
+	"WR-fuel_oi
+l-gt" -> "WR-electricity"
+	"WR-hydro-r
+or" -> "WR-electricity"
+	"WR-electri
+city-impor
+t" -> "WR-electricity"
+	"WR-electricity" -> "WR-CR-elec
+tricity-tr
+ansmission"
+	"WR-electricity" -> "WR-NR-elec
+tricity-tr
+ansmission"
+	"WR-electricity" -> "WR-electri
+city-liion
+_battery"
+	"WR-electricity" -> "WR-electri
+city-curta
+ilment"
+	"WR-electricity" -> "WR-electri
+city-expor
+t"
+	"WR-electricity" -> "WR-electri
+city-elect
+rolyzer"
+	"WR-electricity" -> "WR-electri
+city-deman
+d"
+	"CR-biomass" -> "CR-biomass
+-st"
+	"CR-heat-st
+orage" -> "CR-heat"
+	"CR-biomass
+-st" -> "CR-heat"
+	"CR-heat-sh
+ortage" -> "CR-heat"
+	"CR-geother
+mal-st" -> "CR-heat"
+	"CR-charcoa
+l-h" -> "CR-heat"
+	"CR-heat" -> "CR-heat-ex
+cess"
+	"CR-heat" -> "CR-heat-de
+mand"
+	"CR-heat" -> "CR-heat-st
+orage"
+	"NR-biomass" -> "NR-biomass
+-st"
+	"NR-geother
+mal-st" -> "NR-heat"
+	"NR-heat-sh
+ortage" -> "NR-heat"
+	"NR-biomass
+-st" -> "NR-heat"
+	"NR-charcoa
+l-h" -> "NR-heat"
+	"NR-heat-st
+orage" -> "NR-heat"
+	"NR-heat" -> "NR-heat-ex
+cess"
+	"NR-heat" -> "NR-heat-de
+mand"
+	"NR-heat" -> "NR-heat-st
+orage"
+	"WR-biomass" -> "WR-biomass
+-st"
+	"WR-heat-st
+orage" -> "WR-heat"
+	"WR-geother
+mal-st" -> "WR-heat"
+	"WR-biomass
+-st" -> "WR-heat"
+	"WR-charcoa
+l-h" -> "WR-heat"
+	"WR-heat-sh
+ortage" -> "WR-heat"
+	"WR-heat" -> "WR-heat-ex
+cess"
+	"WR-heat" -> "WR-heat-de
+mand"
+	"WR-heat" -> "WR-heat-st
+orage"
+	"ER-biomass" -> "ER-biomass
+-st"
+	"ER-heat-st
+orage" -> "ER-heat"
+	"ER-geother
+mal-st" -> "ER-heat"
+	"ER-heat-sh
+ortage" -> "ER-heat"
+	"ER-biomass
+-st" -> "ER-heat"
+	"ER-charcoa
+l-h" -> "ER-heat"
+	"ER-heat" -> "ER-heat-ex
+cess"
+	"ER-heat" -> "ER-heat-de
+mand"
+	"ER-heat" -> "ER-heat-st
+orage"
+	"CR-fuel-oil" -> "CR-fuel_oi
+l-gt"
+	"NR-fuel-oil" -> "NR-fuel_oi
+l-gt"
+	"WR-fuel-oil" -> "WR-fuel_oi
+l-gt"
+	"ER-fuel-oil" -> "ER-fuel_oi
+l-gt"
+	"CR-charcoal" -> "CR-charcoa
+l-h"
+	"NR-charcoal" -> "NR-charcoa
+l-h"
+	"WR-charcoal" -> "WR-charcoa
+l-h"
+	"ER-charcoal" -> "ER-charcoa
+l-h"
+	"CR-geothermal" -> "CR-geother
+mal-st"
+	"CR-electri
+city-elect
+rolyzer" -> "CR-h2"
+	"CR-h2-stor
+age" -> "CR-h2"
+	"CR-h2" -> "CR-h2-stor
+age"
+	"CR-h2" -> "CR-h2-fuel
+-cell"
+	"NR-geothermal" -> "NR-geother
+mal-st"
+	"NR-electri
+city-elect
+rolyzer" -> "NR-h2"
+	"NR-h2-stor
+age" -> "NR-h2"
+	"NR-h2" -> "NR-h2-stor
+age"
+	"NR-h2" -> "NR-h2-fuel
+-cell"
+	"WR-geothermal" -> "WR-geother
+mal-st"
+	"WR-electri
+city-elect
+rolyzer" -> "WR-h2"
+	"WR-h2-stor
+age" -> "WR-h2"
+	"WR-h2" -> "WR-h2-stor
+age"
+	"WR-h2" -> "WR-h2-fuel
+-cell"
+	"ER-geothermal" -> "ER-geother
+mal-st"
+	"ER-electri
+city-elect
+rolyzer" -> "ER-h2"
+	"ER-h2-stor
+age" -> "ER-h2"
+	"ER-h2" -> "ER-h2-stor
+age"
+	"ER-h2" -> "ER-h2-fuel
+-cell"
 }

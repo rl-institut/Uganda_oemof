@@ -53,29 +53,29 @@ l-cell" [fontsize=10 shape=rectangle]
 	"UGA-electr
 icity-dema
 nd" [fontsize=10 shape=trapezium]
-	"UGA-hydro-
-ror" -> "UGA-electricity"
+	"UGA-electr
+icity-impo
+rt" -> "UGA-electricity"
+	"UGA-solar-
+pv" -> "UGA-electricity"
+	"UGA-electr
+icity-liio
+n_battery" -> "UGA-electricity"
+	"UGA-geothe
+rmal-st" -> "UGA-electricity"
 	"UGA-fuel_o
 il-gt" -> "UGA-electricity"
-	"UGA-wind-o
-nshore" -> "UGA-electricity"
+	"UGA-hydro-
+ror" -> "UGA-electricity"
 	"UGA-h2-fue
 l-cell" -> "UGA-electricity"
 	"UGA-biomas
 s-st" -> "UGA-electricity"
-	"UGA-solar-
-pv" -> "UGA-electricity"
-	"UGA-electr
-icity-impo
-rt" -> "UGA-electricity"
+	"UGA-wind-o
+nshore" -> "UGA-electricity"
 	"UGA-electr
 icity-shor
 tage" -> "UGA-electricity"
-	"UGA-geothe
-rmal-st" -> "UGA-electricity"
-	"UGA-electr
-icity-liio
-n_battery" -> "UGA-electricity"
 	"UGA-electricity" -> "UGA-electr
 icity-liio
 n_battery"
@@ -95,14 +95,14 @@ nd"
 s-st"
 	"UGA-heat-s
 torage" -> "UGA-heat"
+	"UGA-geothe
+rmal-st" -> "UGA-heat"
+	"UGA-biomas
+s-st" -> "UGA-heat"
 	"UGA-heat-s
 hortage" -> "UGA-heat"
 	"UGA-charco
 al-h" -> "UGA-heat"
-	"UGA-biomas
-s-st" -> "UGA-heat"
-	"UGA-geothe
-rmal-st" -> "UGA-heat"
 	"UGA-heat" -> "UGA-heat-e
 xcess"
 	"UGA-heat" -> "UGA-heat-d
@@ -115,11 +115,11 @@ il-gt"
 al-h"
 	"UGA-geothermal" -> "UGA-geothe
 rmal-st"
-	"UGA-h2-sto
-rage" -> "UGA-h2"
 	"UGA-electr
 icity-elec
 trolyzer" -> "UGA-h2"
+	"UGA-h2-sto
+rage" -> "UGA-h2"
 	"UGA-h2" -> "UGA-h2-sto
 rage"
 	"UGA-h2" -> "UGA-h2-fue

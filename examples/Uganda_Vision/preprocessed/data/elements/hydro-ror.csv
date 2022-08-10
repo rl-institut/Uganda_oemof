@@ -1,2 +1,2 @@
 region,name,type,carrier,tech,bus,capacity,capacity_cost,marginal_cost,profile,output_parameters
-UGA,UGA-hydro-ror,volatile,hydro,pv,UGA-electricity,4500,,0,UGA-hydro-ror-profile,{}
+UGA,UGA-hydro-ror,volatile,hydro,ror,UGA-electricity,4500,,0,UGA-hydro-ror-profile,{}

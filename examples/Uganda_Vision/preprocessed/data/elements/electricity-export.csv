@@ -1,2 +1,2 @@
 name,bus,carrier,input_parameters,marginal_cost,region,tech,type
-UGA-electricity-export,UGA-electricity,electricity,"{""emission_factor"": 0}",0.0,CR,export,excess
+UGA-electricity-export,UGA-electricity,electricity,"{""emission_factor"": 0}",0.0,UGA,export,excess

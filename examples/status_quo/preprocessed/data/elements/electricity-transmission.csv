@@ -1,6 +1,0 @@
-region,name,type,carrier,tech,from_bus,to_bus,from_to_capacity,to_from_capacity,loss
-CR_NR,CR-NR-electricity-transmission,link,electricity,transmission,CR-electricity,NR-electricity,0,0,0.04
-ER_NR,ER-NR-electricity-transmission,link,electricity,transmission,ER-electricity,NR-electricity,155,155,0.04
-ER_CR,ER-CR-electricity-transmission,link,electricity,transmission,ER-electricity,CR-electricity,322,322,0.04
-WR_CR,WR-CR-electricity-transmission,link,electricity,transmission,WR-electricity,CR-electricity,155,155,0.04
-WR_NR,WR-NR-electricity-transmission,link,electricity,transmission,WR-electricity,NR-electricity,0,0,0.04

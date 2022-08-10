@@ -1,89 +1,7 @@
 {
     "profile": "tabular-data-package",
-    "name": "example_base",
+    "name": "status_quo",
     "resources": [
-        {
-            "path": "data/elements/electricity-transmission.csv",
-            "profile": "tabular-data-resource",
-            "name": "electricity-transmission",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "region",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "name",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "type",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "carrier",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "tech",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "from_bus",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "to_bus",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "from_to_capacity",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "to_from_capacity",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "loss",
-                        "type": "number",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ],
-                "primaryKey": "name",
-                "foreignKeys": [
-                    {
-                        "fields": "from_bus",
-                        "reference": {
-                            "resource": "bus",
-                            "fields": "name"
-                        }
-                    },
-                    {
-                        "fields": "to_bus",
-                        "reference": {
-                            "resource": "bus",
-                            "fields": "name"
-                        }
-                    }
-                ]
-            }
-        },
         {
             "path": "data/elements/biomass-st.csv",
             "profile": "tabular-data-resource",
@@ -155,7 +73,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -264,7 +182,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -396,7 +314,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -491,7 +409,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -641,7 +559,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -741,7 +659,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -828,7 +746,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -950,7 +868,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -1036,7 +954,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -1147,7 +1065,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -1211,7 +1129,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -1447,7 +1365,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -1557,7 +1475,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -1779,7 +1697,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -1901,22 +1819,7 @@
                         "format": "default"
                     },
                     {
-                        "name": "CR-solar-pv-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "NR-solar-pv-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "WR-solar-pv-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "ER-solar-pv-profile",
+                        "name": "UGA-solar-pv-profile",
                         "type": "number",
                         "format": "default"
                     }
@@ -1941,22 +1844,7 @@
                         "format": "default"
                     },
                     {
-                        "name": "CR-electricity-demand-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "NR-electricity-demand-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "WR-electricity-demand-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "ER-electricity-demand-profile",
+                        "name": "UGA-electricity-demand-profile",
                         "type": "number",
                         "format": "default"
                     }
@@ -1981,22 +1869,7 @@
                         "format": "default"
                     },
                     {
-                        "name": "CR-wind-onshore-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "NR-wind-onshore-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "WR-wind-onshore-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "ER-wind-onshore-profile",
+                        "name": "UGA-wind-onshore-profile",
                         "type": "number",
                         "format": "default"
                     }
@@ -2021,22 +1894,7 @@
                         "format": "default"
                     },
                     {
-                        "name": "CR-hydro-ror-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "NR-hydro-ror-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "WR-hydro-ror-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "ER-hydro-ror-profile",
+                        "name": "UGA-hydro-ror-profile",
                         "type": "number",
                         "format": "default"
                     }
@@ -2061,22 +1919,7 @@
                         "format": "default"
                     },
                     {
-                        "name": "CR-heat-demand-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "NR-heat-demand-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "WR-heat-demand-profile",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "ER-heat-demand-profile",
+                        "name": "UGA-heat-demand-profile",
                         "type": "number",
                         "format": "default"
                     }

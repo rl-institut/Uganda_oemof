@@ -1,5 +1,2 @@
 name,bus,carrier,input_parameters,marginal_cost,region,tech,type
-CR-heat-excess,CR-heat,heat,{},0,CR,excess,excess
-NR-heat-excess,NR-heat,heat,{},0,NR,excess,excess
-WR-heat-excess,WR-heat,heat,{},0,WR,excess,excess
-ER-heat-excess,ER-heat,heat,{},0,ER,excess,excess
+UGA-heat-excess,UGA-heat,heat,{},0,UGA,excess,excess

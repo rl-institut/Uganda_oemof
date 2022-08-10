@@ -1,5 +1,2 @@
 region,name,type,carrier,tech,bus,capacity,marginal_cost,output_parameters
-CR,CR-electricity-shortage,shortage,electricity,shortage,CR-electricity,,100000,{}
-NR,NR-electricity-shortage,shortage,electricity,shortage,NR-electricity,,100000,{}
-WR,WR-electricity-shortage,shortage,electricity,shortage,WR-electricity,,100000,{}
-ER,ER-electricity-shortage,shortage,electricity,shortage,ER-electricity,,100000,{}
+UGA,UGA-electricity-shortage,shortage,electricity,shortage,UGA-electricity,,100000,{}

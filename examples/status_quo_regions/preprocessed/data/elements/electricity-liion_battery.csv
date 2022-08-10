@@ -1,0 +1,5 @@
+region,name,type,carrier,tech,bus,capacity,storage_capacity,efficiency,marginal_cost,loss_rate,expandable,capacity_cost,storage_capacity_cost,input_parameters,output_parameters
+CR,CR-electricity-liion_battery,storage,electricity,liion_battery,CR-electricity,0,0,0.94,0,0,True,4009.8059,192000,{},{}
+NR,NR-electricity-liion_battery,storage,electricity,liion_battery,NR-electricity,0,0,0.94,0,0,True,4009.8059,192000,{},{}
+WR,WR-electricity-liion_battery,storage,electricity,liion_battery,WR-electricity,0,0,0.94,0,0,True,4009.8059,192000,{},{}
+ER,ER-electricity-liion_battery,storage,electricity,liion_battery,ER-electricity,0,0,0.94,0,0,True,4009.8059,192000,{},{}

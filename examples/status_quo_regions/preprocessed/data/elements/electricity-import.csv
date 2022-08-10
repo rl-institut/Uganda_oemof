@@ -1,0 +1,5 @@
+name,bus,carrier,marginal_cost,output_parameters,region,tech,type
+CR-electricity-import,CR-electricity,electricity,82.0,"{""emission_factor"": 0.05}",CR,import,shortage
+NR-electricity-import,NR-electricity,electricity,82.0,"{""emission_factor"": 0.05}",NR,import,shortage
+WR-electricity-import,WR-electricity,electricity,82.0,"{""emission_factor"": 0.05}",WR,import,shortage
+ER-electricity-import,ER-electricity,electricity,82.0,"{""emission_factor"": 0.05}",ER,import,shortage

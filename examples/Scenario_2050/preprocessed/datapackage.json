@@ -1,6 +1,6 @@
 {
     "profile": "tabular-data-package",
-    "name": "Uganda_Vision",
+    "name": "Scenario_2050",
     "resources": [
         {
             "path": "data/elements/biomass-st.csv",
@@ -746,7 +746,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "integer",
+                        "type": "number",
                         "format": "default"
                     },
                     {
@@ -757,6 +757,11 @@
                     {
                         "name": "output_parameters",
                         "type": "object",
+                        "format": "default"
+                    },
+                    {
+                        "name": "expandable",
+                        "type": "boolean",
                         "format": "default"
                     }
                 ],
@@ -868,7 +873,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "integer",
+                        "type": "number",
                         "format": "default"
                     },
                     {
@@ -879,6 +884,11 @@
                     {
                         "name": "output_parameters",
                         "type": "object",
+                        "format": "default"
+                    },
+                    {
+                        "name": "expandable",
+                        "type": "boolean",
                         "format": "default"
                     }
                 ],

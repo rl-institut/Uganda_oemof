@@ -1,2 +1,2 @@
-region,name,type,carrier,tech,bus,capacity,capacity_cost,marginal_cost,profile,output_parameters
-UGA,UGA-solar-pv,volatile,solar,pv,UGA-electricity,5000,,0,UGA-solar-pv-profile,{}
+region,name,type,carrier,tech,bus,capacity,capacity_cost,marginal_cost,profile,output_parameters,expandable
+UGA,UGA-solar-pv,volatile,solar,pv,UGA-electricity,0,60270,0,UGA-solar-pv-profile,{},True

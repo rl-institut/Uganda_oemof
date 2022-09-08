@@ -5,6 +5,7 @@ CR,CR-charcoal,bus,False
 CR,CR-biomass,bus,False
 CR,CR-geothermal,bus,False
 CR,CR-nuclear,bus,False
+CR,CR-peat,bus,False
 CR,CR-heat,bus,True
 CR,CR-h2,bus,True
 NR,NR-electricity,bus,True
@@ -13,6 +14,7 @@ NR,NR-charcoal,bus,False
 NR,NR-biomass,bus,False
 NR,NR-geothermal,bus,False
 NR,NR-nuclear,bus,False
+NR,NR-peat,bus,False
 NR,NR-heat,bus,True
 NR,NR-h2,bus,True
 WR,WR-electricity,bus,True
@@ -21,6 +23,7 @@ WR,WR-charcoal,bus,False
 WR,WR-biomass,bus,False
 WR,WR-geothermal,bus,False
 WR,WR-nuclear,bus,False
+WR,WR-peat,bus,False
 WR,WR-heat,bus,True
 WR,WR-h2,bus,True
 ER,ER-electricity,bus,True
@@ -29,5 +32,6 @@ ER,ER-charcoal,bus,False
 ER,ER-biomass,bus,False
 ER,ER-geothermal,bus,False
 ER,ER-nuclear,bus,False
+ER,ER-peat,bus,False
 ER,ER-heat,bus,True
 ER,ER-h2,bus,True

@@ -7,3 +7,4 @@ UGA,UGA-geothermal,bus,False
 UGA,UGA-heat,bus,True
 UGA,UGA-h2,bus,True
 UGA,UGA-nuclear,bus,False
+UGA,UGA-peat,bus,False

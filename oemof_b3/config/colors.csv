@@ -62,10 +62,11 @@ Charcoal,black
 Lignite,saddlebrown
 Oil,#9467bd
 Fuel Oil,#565656
-Other,#7f7f7f
+Other,lavender
 CH4 shortage,#cfcfcf
 CH4 demand,saddlebrown
 H2 import,green
 H2 demand,darkgreen
 Geothermal ST,#ff6500
-H2 fuel cell,#197394
+H2 fuel cell,darksalmon
+Peat ST,olive

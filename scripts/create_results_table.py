@@ -47,7 +47,8 @@ def create_production_table(scalars, carrier):
 
     df = df.loc[~df[f"flow_out_{carrier}"].isna()]
 
-    df.index = df.index.droplevel(["name", "scenario_key", "type"])
+    #df.index = df.index.droplevel(["name", "scenario_key", "type"])
+    df.index = df.index.droplevel(["name", "type"])
 
     df.loc[:, "FLH"] = df.loc[:, f"flow_out_{carrier}"] / df.loc[
         :, ["capacity", f"invest_out_{carrier}"]
@@ -79,13 +80,25 @@ def create_demand_table(scalars):
 
     return df
 
+def create_total_system_cost_table(scalars):
+    df = scalars.copy()
+
+    df = dp.filter_df(df, "var_name", "total_system_cost")
+
+    df = df.set_index(["scenario_key", "var_name"])
+
+    df = df.loc[:, ["var_value"]]
+
+    df = dp.round_setting_int(df, decimals={col: 0 for col in df.columns})
+
+    return df
 
 if __name__ == "__main__":
     in_path = sys.argv[1]  # input data
     out_path = sys.argv[2]
     logfile = sys.argv[3]
 
-    logger = config.add_snake_logger(logfile, "create_results_table")
+    #logger = config.add_snake_logger(logfile, "create_results_table")
 
     scalars = pd.read_csv(os.path.join(in_path, "scalars.csv"))
 
@@ -95,13 +108,18 @@ if __name__ == "__main__":
     if not os.path.exists(out_path):
         os.makedirs(out_path)
 
-    for carrier in ["electricity", "heat_central", "heat_decentral", "h2"]:
+    #for carrier in ["electricity", "heat_central", "heat_decentral", "h2"]:
+    for carrier in ["electricity",  "h2", "heat"]:
         try:
             df = create_production_table(scalars, carrier)
             dp.save_df(df, os.path.join(out_path, f"production_table_{carrier}.csv"))
         except:  # noqa E722
-            logger.info(f"Could not create production table for carrier {carrier}.")
+            #logger.info(f"Could not create production table for carrier {carrier}.")
+            print(f"Could not create production table for carrier {carrier}.")
             continue
 
     df = create_demand_table(scalars)
     dp.save_df(df, os.path.join(out_path, "sink_table.csv"))
+
+    df = create_total_system_cost_table(scalars)
+    dp.save_df(df, os.path.join(out_path, "total_system_cost.csv"))

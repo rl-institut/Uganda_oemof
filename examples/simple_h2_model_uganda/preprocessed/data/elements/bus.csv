@@ -1,0 +1,3 @@
+region,name,type,balanced
+UGA,UGA-electricity,bus,TRUE
+UGA,UGA-h2,bus,TRUE

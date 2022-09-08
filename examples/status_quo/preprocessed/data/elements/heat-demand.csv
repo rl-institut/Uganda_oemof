@@ -1,2 +1,2 @@
 name,amount,bus,carrier,profile,region,tech,type
-UGA-heat-demand,60071540,UGA-heat,heat,UGA-heat-demand-profile,UGA,demand,load
+UGA-heat-demand,0,UGA-heat,heat,UGA-heat-demand-profile,UGA,demand,load

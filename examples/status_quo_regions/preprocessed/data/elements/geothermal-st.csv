@@ -1,5 +1,5 @@
 region,name,type,tech,carrier,carrier_cost,electric_efficiency,electricity_bus,expandable,fuel_bus,heat_bus,capacity,capacity_cost,marginal_cost,thermal_efficiency
-CR,CR-geothermal-st,backpressure,st,geothermal,,0.12,CR-electricity,False,CR-geothermal,CR-heat,0,367687,30.3739,0.21
-NR,NR-geothermal-st,backpressure,st,geothermal,,0.12,NR-electricity,False,NR-geothermal,NR-heat,0,367687,30.3739,0.21
-WR,WR-geothermal-st,backpressure,st,geothermal,,0.12,WR-electricity,False,WR-geothermal,WR-heat,0,367687,30.3739,0.21
-ER,ER-geothermal-st,backpressure,st,geothermal,,0.12,ER-electricity,False,ER-geothermal,ER-heat,0,367687,30.3739,0.21
+CR,CR-geothermal-st,backpressure,st,geothermal,0,0.12,CR-electricity,False,CR-geothermal,CR-heat,0,367687,30.3739,0.21
+NR,NR-geothermal-st,backpressure,st,geothermal,0,0.12,NR-electricity,False,NR-geothermal,NR-heat,0,367687,30.3739,0.21
+WR,WR-geothermal-st,backpressure,st,geothermal,0,0.12,WR-electricity,False,WR-geothermal,WR-heat,0,367687,30.3739,0.21
+ER,ER-geothermal-st,backpressure,st,geothermal,0,0.12,ER-electricity,False,ER-geothermal,ER-heat,0,367687,30.3739,0.21

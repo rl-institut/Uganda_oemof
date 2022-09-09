@@ -1,2 +1,2 @@
 region,name,type,tech,carrier,carrier_cost,electric_efficiency,electricity_bus,expandable,fuel_bus,heat_bus,capacity,capacity_cost,marginal_cost,thermal_efficiency
-UGA,UGA-geothermal-st,backpressure,st,geothermal,,0.12,UGA-electricity,FALSE,UGA-geothermal,UGA-heat,1500,224467,30.3739,0.21
+UGA,UGA-geothermal-st,backpressure,st,geothermal,,0.12,UGA-electricity,False,UGA-geothermal,UGA-heat,1500,367687,30.3739,0.21

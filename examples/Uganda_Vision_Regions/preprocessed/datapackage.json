@@ -1032,7 +1032,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "integer",
+                        "type": "number",
                         "format": "default"
                     },
                     {
@@ -1154,7 +1154,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "integer",
+                        "type": "number",
                         "format": "default"
                     },
                     {
@@ -1240,7 +1240,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "integer",
+                        "type": "number",
                         "format": "default"
                     },
                     {
@@ -1311,7 +1311,7 @@
                     },
                     {
                         "name": "carrier_cost",
-                        "type": "string",
+                        "type": "number",
                         "format": "default"
                     },
                     {
@@ -1741,7 +1741,7 @@
                     },
                     {
                         "name": "carrier_cost",
-                        "type": "string",
+                        "type": "number",
                         "format": "default"
                     },
                     {

@@ -1,5 +1,5 @@
 region,name,type,carrier,tech,bus,capacity,storage_capacity,efficiency,marginal_cost,loss_rate,expandable,capacity_cost,storage_capacity_cost,input_parameters,output_parameters
-CR,CR-h2-storage,storage,h2,storage,CR-h2,0,0,0.87,0,0,True,6.6,36.99,{},{}
-NR,NR-h2-storage,storage,h2,storage,NR-h2,0,0,0.87,0,0,True,6.6,36.99,{},{}
-WR,WR-h2-storage,storage,h2,storage,WR-h2,0,0,0.87,0,0,True,6.6,36.99,{},{}
-ER,ER-h2-storage,storage,h2,storage,ER-h2,0,0,0.87,0,0,True,6.6,36.99,{},{}
+CR,CR-h2-storage,storage,h2,storage,CR-h2,0,0,0.45,0,0,True,654,0,{},{}
+NR,NR-h2-storage,storage,h2,storage,NR-h2,0,0,0.45,0,0,True,654,0,{},{}
+WR,WR-h2-storage,storage,h2,storage,WR-h2,0,0,0.45,0,0,True,654,0,{},{}
+ER,ER-h2-storage,storage,h2,storage,ER-h2,0,0,0.45,0,0,True,654,0,{},{}

@@ -1,2 +1,0 @@
-name,bus,carrier,marginal_cost,output_parameters,region,tech,type
-UGA-heat-shortage,UGA-heat,heat,1000000000.0,{},UGA,shortage,shortage

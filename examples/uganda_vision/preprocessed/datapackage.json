@@ -1,6 +1,6 @@
 {
     "profile": "tabular-data-package",
-    "name": "Scenario_2050",
+    "name": "Uganda_Vision",
     "resources": [
         {
             "path": "data/elements/biomass-st.csv",
@@ -120,6 +120,210 @@
             "path": "data/elements/fuel-oil-st.csv",
             "profile": "tabular-data-resource",
             "name": "fuel-oil-st",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "region",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "from_bus",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "to_bus",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_cost",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "efficiency",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier_cost",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "marginal_cost",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "expandable",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "output_parameters",
+                        "type": "object",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ],
+                "primaryKey": "name",
+                "foreignKeys": [
+                    {
+                        "fields": "from_bus",
+                        "reference": {
+                            "resource": "bus",
+                            "fields": "name"
+                        }
+                    },
+                    {
+                        "fields": "to_bus",
+                        "reference": {
+                            "resource": "bus",
+                            "fields": "name"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "path": "data/elements/nuclear-st.csv",
+            "profile": "tabular-data-resource",
+            "name": "nuclear-st",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "region",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "from_bus",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "to_bus",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_cost",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "efficiency",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier_cost",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "marginal_cost",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "expandable",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "output_parameters",
+                        "type": "object",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ],
+                "primaryKey": "name",
+                "foreignKeys": [
+                    {
+                        "fields": "from_bus",
+                        "reference": {
+                            "resource": "bus",
+                            "fields": "name"
+                        }
+                    },
+                    {
+                        "fields": "to_bus",
+                        "reference": {
+                            "resource": "bus",
+                            "fields": "name"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "path": "data/elements/peat-st.csv",
+            "profile": "tabular-data-resource",
+            "name": "peat-st",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
@@ -354,111 +558,6 @@
             }
         },
         {
-            "path": "data/elements/electricity-liion_battery.csv",
-            "profile": "tabular-data-resource",
-            "name": "electricity-liion_battery",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "region",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "name",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "type",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "carrier",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "tech",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "bus",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "capacity",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "storage_capacity",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "efficiency",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "marginal_cost",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "loss_rate",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "expandable",
-                        "type": "boolean",
-                        "format": "default"
-                    },
-                    {
-                        "name": "capacity_cost",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "storage_capacity_cost",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "input_parameters",
-                        "type": "object",
-                        "format": "default"
-                    },
-                    {
-                        "name": "output_parameters",
-                        "type": "object",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ],
-                "primaryKey": "name",
-                "foreignKeys": [
-                    {
-                        "fields": "bus",
-                        "reference": {
-                            "resource": "bus",
-                            "fields": "name"
-                        }
-                    }
-                ]
-            }
-        },
-        {
             "path": "data/elements/electricity-curtailment.csv",
             "profile": "tabular-data-resource",
             "name": "electricity-curtailment",
@@ -594,108 +693,6 @@
             }
         },
         {
-            "path": "data/elements/charcoal-h.csv",
-            "profile": "tabular-data-resource",
-            "name": "charcoal-h",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "region",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "name",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "type",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "carrier",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "tech",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "from_bus",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "to_bus",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "capacity",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "capacity_cost",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "efficiency",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "carrier_cost",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "marginal_cost",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "expandable",
-                        "type": "boolean",
-                        "format": "default"
-                    },
-                    {
-                        "name": "output_parameters",
-                        "type": "object",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ],
-                "primaryKey": "name",
-                "foreignKeys": [
-                    {
-                        "fields": "from_bus",
-                        "reference": {
-                            "resource": "bus",
-                            "fields": "name"
-                        }
-                    },
-                    {
-                        "fields": "to_bus",
-                        "reference": {
-                            "resource": "bus",
-                            "fields": "name"
-                        }
-                    }
-                ]
-            }
-        },
-        {
             "path": "data/elements/wind-onshore.csv",
             "profile": "tabular-data-resource",
             "name": "wind-onshore",
@@ -757,11 +754,6 @@
                     {
                         "name": "output_parameters",
                         "type": "object",
-                        "format": "default"
-                    },
-                    {
-                        "name": "expandable",
-                        "type": "boolean",
                         "format": "default"
                     }
                 ],
@@ -885,11 +877,6 @@
                         "name": "output_parameters",
                         "type": "object",
                         "format": "default"
-                    },
-                    {
-                        "name": "expandable",
-                        "type": "boolean",
-                        "format": "default"
                     }
                 ],
                 "missingValues": [
@@ -964,7 +951,7 @@
                     },
                     {
                         "name": "marginal_cost",
-                        "type": "integer",
+                        "type": "number",
                         "format": "default"
                     },
                     {
@@ -1035,7 +1022,7 @@
                     },
                     {
                         "name": "carrier_cost",
-                        "type": "string",
+                        "type": "number",
                         "format": "default"
                     },
                     {
@@ -1421,320 +1408,6 @@
                 "foreignKeys": [
                     {
                         "fields": "bus",
-                        "reference": {
-                            "resource": "bus",
-                            "fields": "name"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "path": "data/elements/electricity-electrolyzer.csv",
-            "profile": "tabular-data-resource",
-            "name": "electricity-electrolyzer",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "name",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "capacity",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "capacity_cost",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "capacity_potential",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "carrier",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "carrier_cost",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "efficiency",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "expandable",
-                        "type": "boolean",
-                        "format": "default"
-                    },
-                    {
-                        "name": "from_bus",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "marginal_cost",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "output_parameters",
-                        "type": "object",
-                        "format": "default"
-                    },
-                    {
-                        "name": "region",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "tech",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "to_bus",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "type",
-                        "type": "string",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ],
-                "primaryKey": "name",
-                "foreignKeys": [
-                    {
-                        "fields": "from_bus",
-                        "reference": {
-                            "resource": "bus",
-                            "fields": "name"
-                        }
-                    },
-                    {
-                        "fields": "to_bus",
-                        "reference": {
-                            "resource": "bus",
-                            "fields": "name"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "path": "data/elements/h2-storage.csv",
-            "profile": "tabular-data-resource",
-            "name": "h2-storage",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "region",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "name",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "type",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "carrier",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "tech",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "bus",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "capacity",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "storage_capacity",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "efficiency",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "marginal_cost",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "loss_rate",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "expandable",
-                        "type": "boolean",
-                        "format": "default"
-                    },
-                    {
-                        "name": "capacity_cost",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "storage_capacity_cost",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "input_parameters",
-                        "type": "object",
-                        "format": "default"
-                    },
-                    {
-                        "name": "output_parameters",
-                        "type": "object",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ],
-                "primaryKey": "name",
-                "foreignKeys": [
-                    {
-                        "fields": "bus",
-                        "reference": {
-                            "resource": "bus",
-                            "fields": "name"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "path": "data/elements/h2-fuel-cell.csv",
-            "profile": "tabular-data-resource",
-            "name": "h2-fuel-cell",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "region",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "name",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "type",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "carrier",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "tech",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "from_bus",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "to_bus",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "capacity",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "capacity_cost",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "efficiency",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "carrier_cost",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "marginal_cost",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "expandable",
-                        "type": "boolean",
-                        "format": "default"
-                    },
-                    {
-                        "name": "output_parameters",
-                        "type": "object",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ],
-                "primaryKey": "name",
-                "foreignKeys": [
-                    {
-                        "fields": "from_bus",
-                        "reference": {
-                            "resource": "bus",
-                            "fields": "name"
-                        }
-                    },
-                    {
-                        "fields": "to_bus",
                         "reference": {
                             "resource": "bus",
                             "fields": "name"

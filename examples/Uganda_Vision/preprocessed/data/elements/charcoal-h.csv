@@ -1,2 +1,0 @@
-region,name,type,carrier,tech,from_bus,to_bus,capacity,capacity_cost,efficiency,carrier_cost,marginal_cost,expandable,output_parameters
-UGA,UGA-charcoal-h,conversion,hardcoal,gt,UGA-charcoal,UGA-heat,0,,0.40,0.021,0.0045,False,{}

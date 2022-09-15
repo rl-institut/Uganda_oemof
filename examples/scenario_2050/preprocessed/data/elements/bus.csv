@@ -1,6 +1,5 @@
 region,name,type,balanced
 UGA,UGA-electricity,bus,True
-UGA,UGA-fuel-oil,bus,False
 UGA,UGA-biomass,bus,False
-UGA,UGA-geothermal,bus,False
 UGA,UGA-heat,bus,True
+UGA,UGA-h2,bus,True

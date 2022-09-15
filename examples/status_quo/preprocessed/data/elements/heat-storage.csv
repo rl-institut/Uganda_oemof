@@ -1,2 +1,2 @@
 name,bus,capacity,capacity_cost,capacity_potential,carrier,efficiency,expandable,input_parameters,loss_rate,marginal_cost,output_parameters,region,storage_capacity,storage_capacity_cost,storage_capacity_potential,tech,type
-UGA-heat-storage,UGA-heat,0,5.7830099133661314e-08,,heat,1.0,True,"{""variable_costs"": 1E-7}",0.021,1.2,{},UGA,0,40376.34064480114,,storage,storage
+UGA-heat-storage,UGA-heat,0,0,,heat,1.0,True,"{""variable_costs"": 0}",0.021,1.2,{},UGA,0,40376,,storage,storage

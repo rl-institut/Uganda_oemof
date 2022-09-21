@@ -1,0 +1,2 @@
+region,name,type,carrier,tech,bus,capacity,capacity_cost,marginal_cost,profile,output_parameters
+UGA,nuclear-st,volatile,hydro,ror,UGA-electricity,24000,0,0,UGA-nuclear-production-profile,{}

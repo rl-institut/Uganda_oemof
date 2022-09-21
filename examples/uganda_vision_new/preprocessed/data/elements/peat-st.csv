@@ -1,0 +1,2 @@
+region,name,type,carrier,tech,from_bus,to_bus,capacity,capacity_cost,efficiency,carrier_cost,marginal_cost,expandable,output_parameters
+UGA,UGA-peat-st,conversion,peat,st,UGA-peat,UGA-electricity,800,140598,0.4,0,0,False,{}

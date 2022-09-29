@@ -1,2 +1,2 @@
 region,name,type,carrier,tech,from_bus,to_bus,capacity,capacity_cost,efficiency,carrier_cost,marginal_cost,expandable,output_parameters
-UGA,UGA-fuel_oil-gt,conversion,oil,gt,UGA-fuel-oil,UGA-electricity,92,43321,0.4,37.93,43.95,False,{}
+UGA,UGA-fuel_oil-gt,conversion,oil,gt,UGA-fuel-oil,UGA-electricity,4300,43321,0.4,37.93,43.95,False,{}

@@ -1,2 +1,0 @@
-region,name,type,carrier,tech,from_bus,to_bus,capacity,capacity_cost,efficiency,carrier_cost,marginal_cost,expandable,output_parameters
-UGA,UGA-h2-fuel-cell,conversion,h2,fc,UGA-h2,UGA-electricity,0,47250,0.60,127.79,0,True,{}

@@ -1,0 +1,2 @@
+region,name,type,tech,carrier,carrier_cost,electric_efficiency,to_bus,expandable,from_bus,capacity,capacity_cost,marginal_cost
+UGA,UGA-geothermal-st,conversion,st,geothermal,0,0.12,UGA-electricity,False,UGA-geothermal,0,367687,30.37

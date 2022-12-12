@@ -1,0 +1,2 @@
+region,name,type,carrier,tech,bus,capacity,storage_capacity,efficiency,marginal_cost,loss_rate,expandable,capacity_cost,storage_capacity_cost,input_parameters,output_parameters
+UGA,UGA-electricity-liion_battery,storage,electricity,liion_battery,UGA-electricity,0,0,0.9,0,0,True,0,21812.5,{},{}

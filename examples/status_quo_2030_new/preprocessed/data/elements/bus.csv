@@ -1,0 +1,4 @@
+region,name,type,balanced
+UGA,UGA-electricity,bus,True
+UGA,UGA-fuel-oil,bus,False
+UGA,UGA-heat,bus,True

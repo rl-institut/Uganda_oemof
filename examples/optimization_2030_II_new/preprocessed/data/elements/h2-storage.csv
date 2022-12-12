@@ -1,0 +1,2 @@
+region,name,type,carrier,tech,bus,capacity,storage_capacity,efficiency,marginal_cost,loss_rate,expandable,capacity_cost,storage_capacity_cost,input_parameters,output_parameters
+UGA,UGA-h2-cavern,storage,h2,storage,UGA-h2,0,0,0.88,0,0,True,0,3937.5,{},{}

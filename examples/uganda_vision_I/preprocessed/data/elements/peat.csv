@@ -1,2 +1,2 @@
 region,name,type,carrier,tech,bus,capacity,capacity_cost,marginal_cost,profile,output_parameters
-UGA,peat-st,volatile,peat,ror,UGA-electricity,800,140598,0,UGA-peat-production-profile,{}
+UGA,peat-st,volatile,peat,ror,UGA-electricity,800,322192.5,6.8,UGA-peat-production-profile,{}

@@ -1,0 +1,2 @@
+region,name,type,carrier,tech,bus,capacity,capacity_cost,marginal_cost,carrier_cost,profile,output_parameters,expandable
+UGA,UGA-fuel_oil-gt,volatile,oil,ror,UGA-electricity,92,98000,3.4,37.9,UGA-fuel-oil-production-profile,{},TRUE

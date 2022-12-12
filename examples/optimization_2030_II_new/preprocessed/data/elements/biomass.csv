@@ -1,0 +1,2 @@
+region,name,type,carrier,tech,bus,capacity,capacity_cost,marginal_cost,carrier_cost,profile,output_parameters,expandable
+UGA,biomass-st,volatile,biomass,ror,UGA-electricity,112,206250,5,1.042,UGA-biomass-production-profile,{},TRUE

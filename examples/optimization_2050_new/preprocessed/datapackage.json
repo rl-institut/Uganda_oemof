@@ -907,6 +907,11 @@
                         "name": "expandable",
                         "type": "boolean",
                         "format": "default"
+                    },
+                    {
+                        "name": "capacity_potential",
+                        "type": "integer",
+                        "format": "default"
                     }
                 ],
                 "missingValues": [
@@ -997,6 +1002,16 @@
                     {
                         "name": "output_parameters",
                         "type": "object",
+                        "format": "default"
+                    },
+                    {
+                        "name": "expandable",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_potential",
+                        "type": "integer",
                         "format": "default"
                     }
                 ],

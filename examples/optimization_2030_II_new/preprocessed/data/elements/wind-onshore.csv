@@ -1,2 +1,0 @@
-region,name,type,carrier,tech,bus,capacity,capacity_cost,marginal_cost,profile,output_parameters,expandable
-UGA,UGA-wind-onshore,volatile,wind,onshore,UGA-electricity,0,138172.5,0,UGA-wind-onshore-profile,{},TRUE

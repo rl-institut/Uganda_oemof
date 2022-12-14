@@ -1,2 +1,0 @@
-name,capacity,capacity_cost,capacity_potential,carrier,carrier_cost,efficiency,expandable,from_bus,marginal_cost,output_parameters,region,tech,to_bus,type
-UGA-electricity-electrolyzer,0,50625,,electricity,,0.665,True,UGA-electricity,0,{},UGA,electrolyzer,UGA-h2,conversion

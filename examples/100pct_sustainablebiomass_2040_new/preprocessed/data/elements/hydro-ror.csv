@@ -1,2 +1,2 @@
-region,name,type,carrier,tech,bus,capacity,capacity_cost,marginal_cost,profile,output_parameters,expandable
-UGA,UGA-hydro-ror,volatile,hydro,ror,UGA-electricity,1070,247500,3,UGA-hydro-ror-profile,{},TRUE
+region,name,type,carrier,tech,bus,capacity,capacity_cost,marginal_cost,profile,output_parameters,expandable,capacity_potential
+UGA,UGA-hydro-ror,volatile,hydro,ror,UGA-electricity,1070,247500,3,UGA-hydro-ror-profile,{},TRUE,2000

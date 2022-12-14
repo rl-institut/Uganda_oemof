@@ -1,2 +1,0 @@
-region,name,type,carrier,tech,bus,capacity,marginal_cost,output_parameters
-UGA,UGA-electricity-shortage,shortage,electricity,shortage,UGA-electricity,,100000,{}

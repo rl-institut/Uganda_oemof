@@ -1,2 +1,0 @@
-name,bus,carrier,input_parameters,marginal_cost,region,tech,type
-UGA-heat-excess,UGA-heat,heat,{},0,UGA,excess,excess
